@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "heidrifx_diffusion2d"
+version = "0.0.1"
+description = "A student project from the course 'Simulation Software Engineering'"
+readme = "README.md"
+requires-python = ">=3.6"
+license = { file = "LICENSE" }
+keywords = ["SSE", "student project"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: CC License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+]
