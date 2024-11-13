@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+adr1ja_diffusion2d.egg-info/PKG-INFO
+adr1ja_diffusion2d.egg-info/SOURCES.txt
+adr1ja_diffusion2d.egg-info/dependency_links.txt
+adr1ja_diffusion2d.egg-info/requires.txt
+adr1ja_diffusion2d.egg-info/top_level.txt
