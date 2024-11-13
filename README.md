@@ -8,12 +8,27 @@ The code used in this exercise is based on [Chapter 7 of the book "Learning Scie
 
 ## Project description
 
+This package contains a Python implementation of the 2D diffusion equation. The diffusion equation is a partial
+differential equation that describes how a quantity (e.g., heat, particles, etc.) diffuses
+through a medium.
+
 ## Installing the package
+
+pip install dist\caihy_diffusion2d-0.0.2-py3-none-any.whl
 
 ### Using pip3 to install from PyPI
 
+pip install -i https://test.pypi.org/simple/ caihy-diffusion2d --extra-index-url https://pypi.org/simple
+
 ### Required dependencies
+
+numpy
+matplotlib
 
 ## Running this package
 
+?
+
 ## Citing
+
+Cat?
