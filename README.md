@@ -12,8 +12,16 @@ This code solves the diffusion equation in 2D over a square domain which is at a
 ## Installing the package
 
 ### Using pip3 to install from PyPI
+For the default release use:
+
 ```bash
 pip install --user --index-url https://test.pypi.org/simple/ heidrifx_diffusion2d
+```
+
+For a pre-release version, i.e. a packed versioned by `versioneer` use for example:
+
+```bash
+pip install --user --index-url https://test.pypi.org/simple/ heidrifx-diffusion2d==0.post0.dev4
 ```
 
 ### Required dependencies
