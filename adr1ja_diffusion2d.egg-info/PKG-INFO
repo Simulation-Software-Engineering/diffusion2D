@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: adr1ja_diffusion2d
+Version: 0.0.2
+Summary: A simulation package for solving the 2D diffusion equation using finite difference methods
+Author-email: Adrija <adrijasingh13@gmail.com>
+Keywords: diffusion,simulation,finite difference,scientific computing
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=2.1.0
+Requires-Dist: matplotlib>=3.9.0
+
+# diffusion2D
+
+## Instructions for students
+
+Please follow the instructions in [pypi_exercise.md](https://github.com/Simulation-Software-Engineering/Lecture-Material/blob/main/03_building_and_packaging/pypi_exercise.md).
+
+The code used in this exercise is based on [Chapter 7 of the book "Learning Scientific Programming with Python"](https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/).
+
+## Project description
+
+## Installing the package
+
+### Using pip3 to install from PyPI
+
+### Required dependencies
+
+## Running this package
+
+## Citing

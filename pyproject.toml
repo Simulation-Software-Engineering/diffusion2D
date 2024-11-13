@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adr1ja_diffusion2d"
+version = "0.0.2"
+description = "A simulation package for solving the 2D diffusion equation using finite difference methods"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Adrija", email = "adrijasingh13@gmail.com"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+keywords = ["diffusion", "simulation", "finite difference", "scientific computing"]
+dependencies = [
+    "numpy>=2.1.0",
+    "matplotlib>=3.9.0"
+]
