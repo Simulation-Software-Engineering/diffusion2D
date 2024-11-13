@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "jafarkmi_diffusion2d"
+description = "Solving the diffusion equation in 2D over a square domain"
+readme = "README.md"
+keywords = ["Diffusion Equation Solver", "Diffusion Equation Solver"]
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+    "matplotlib",
+    "numpy"
+]
+version = "0.0.7"

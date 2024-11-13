@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/jafarkmi_diffusion2d/__init__.py
+src/jafarkmi_diffusion2d/diffusion2d.py
+src/jafarkmi_diffusion2d/output.py
+src/jafarkmi_diffusion2d.egg-info/PKG-INFO
+src/jafarkmi_diffusion2d.egg-info/SOURCES.txt
+src/jafarkmi_diffusion2d.egg-info/dependency_links.txt
+src/jafarkmi_diffusion2d.egg-info/requires.txt
+src/jafarkmi_diffusion2d.egg-info/top_level.txt
