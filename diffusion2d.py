@@ -1,11 +1,6 @@
-"""
-Solving the two-dimensional diffusion equation
-
-Example acquired from https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
+from output import create_plot, output_plots
 
 # plate size, mm
 w = h = 10.
@@ -24,7 +19,8 @@ T_hot = 700
 nx, ny = int(w / dx), int(h / dy)
 
 # Computing a stable time step
-dx2, dy2 = dx * dx, dy * dy
+dx2 = dx * dx  
+dy2 = dy * dy  
 dt = dx2 * dy2 / (2 * D * (dx2 + dy2))
 
 print("dt = {}".format(dt))
@@ -58,8 +54,9 @@ def do_timestep(u_nm1, u, D, dt, dx2, dy2):
 nsteps = 101
 # Output 4 figures at these timesteps
 n_output = [0, 10, 50, 100]
-fig_counter = 0
+
 fig = plt.figure()
+im = None  # To store the image object for the color bar
 
 # Time loop
 for n in range(nsteps):
@@ -67,15 +64,8 @@ for n in range(nsteps):
 
     # Create figure
     if n in n_output:
-        fig_counter += 1
-        ax = fig.add_subplot(220 + fig_counter)
-        im = ax.imshow(u.copy(), cmap=plt.get_cmap('hot'), vmin=T_cold, vmax=T_hot)  # image for color bar axes
-        ax.set_axis_off()
-        ax.set_title('{:.1f} ms'.format(n * dt * 1000))
+        position = 220 + n_output.index(n) + 1  # Define subplot position (221, 222, etc.)
+        im = create_plot(u, T_cold, T_hot, dt, n, fig, position)
 
 # Plot output figures
-fig.subplots_adjust(right=0.85)
-cbar_ax = fig.add_axes([0.9, 0.15, 0.03, 0.7])
-cbar_ax.set_xlabel('$T$ / K', labelpad=20)
-fig.colorbar(im, cax=cbar_ax)
-plt.show()
+output_plots(fig, im)
