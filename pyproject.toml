@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+
+[tool.setuptools.packages]
+find = {where = ["."], include = ["diffusion2d"]}
+
+[project]
+name = "caihy_diffusion2d"
+description = "diffusion FDM"
+readme = "README.md"
+keywords = ["toy", "simulation"]
+authors = [
+    {name = "Henry Cai"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+    "numpy",
+    "matplotlib"
+]
+version = "0.0.2"
+[project.urls]
+Homepage = "https://github.com/Simulation-Software-Engineering/diffusion2D"
+[project.scripts]
+solver = "diffusion2d.diffusion2d:solve"
