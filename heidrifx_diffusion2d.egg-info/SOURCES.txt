@@ -1,8 +1,10 @@
 LICENSE
 README.md
 pyproject.toml
+setup.cfg
 setup.py
 heidrifx_diffusion2d/__init__.py
+heidrifx_diffusion2d/_version.py
 heidrifx_diffusion2d/diffusion2d.py
 heidrifx_diffusion2d/output.py
 heidrifx_diffusion2d.egg-info/PKG-INFO

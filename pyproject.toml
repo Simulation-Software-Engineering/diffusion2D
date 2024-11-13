@@ -10,7 +10,7 @@ packages = ["heidrifx_diffusion2d"]
 
 [tool.versioneer]
 VCS = "git"
-style = "pep440"
+style = "pep440-pre"
 versionfile_source = "heidrifx_diffusion2d/_version.py"
 versionfile_build = "_version.py"
 tag_prefix = ""
@@ -18,7 +18,8 @@ parentdir_prefix = "myproject-"
 
 [project]
 name = "heidrifx_diffusion2d"
-version = "0.0.1"
+#version = "0.0.1"
+dynamic = ["version"]
 description = "A student project from the course 'Simulation Software Engineering'"
 readme = "README.md"
 requires-python = ">=3.6"

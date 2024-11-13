@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: heidrifx_diffusion2d
-Version: 0.0.1
+Version: 0.post0.dev4
 Summary: A student project from the course 'Simulation Software Engineering'
 Keywords: SSE,student project
 Classifier: Programming Language :: Python :: 3
