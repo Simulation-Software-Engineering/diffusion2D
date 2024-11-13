@@ -6,7 +6,7 @@ Example acquired from https://scipython.com/book/chapter-7-matplotlib/examples/t
 
 import numpy as np
 import matplotlib.pyplot as plt
-from output import create_plot, output_plots
+from .output import create_plot, output_plots
 
 def solve(dx=0.1,dy=0.1,D=4.):
     # plate size, mm

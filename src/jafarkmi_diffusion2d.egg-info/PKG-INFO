@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: jafarkmi_diffusion2d
-Version: 0.0.1
+Version: 0.0.7
 Summary: Solving the diffusion equation in 2D over a square domain
 Keywords: Diffusion Equation Solver,Diffusion Equation Solver
 Classifier: Programming Language :: Python :: 3
