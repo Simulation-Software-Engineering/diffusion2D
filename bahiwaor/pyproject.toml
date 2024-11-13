@@ -1,0 +1,31 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bahiwaor_diffusion2d"
+version = "0.0.1"
+description = "A package for solving the 2D diffusion equation"
+readme = "README.md"
+requires-python = ">=3.6"  # Adjusted to a compatible Python version
+license = { text = "CC BY 4.0" }
+authors = [{ name = "Omkar Bahiwal", email = "test@test.com" }]
+keywords = ["diffusion", "2D", "simulation", "science"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "matplotlib"
+]
+
+[project.urls]
+Homepage = "https://github.com/ombahiwal/diffusion2d-fork"
+
+[project.scripts]
+solve = "bahiwaor_diffusion2d.diffusion2d:main" 
+

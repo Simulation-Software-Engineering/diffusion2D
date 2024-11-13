@@ -1,0 +1,11 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+bin
+include
+lib
+share
+__pycache__
+pyvenv.cfg
+test_pak
+new_env
+my_py39_env
+README.md
