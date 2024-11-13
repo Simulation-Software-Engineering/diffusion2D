@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+sashanje_diffusion2d/__init__.py
+sashanje_diffusion2d/diffusion2d.py
+sashanje_diffusion2d/output.py
+sashanje_diffusion2d.egg-info/PKG-INFO
+sashanje_diffusion2d.egg-info/SOURCES.txt
+sashanje_diffusion2d.egg-info/dependency_links.txt
+sashanje_diffusion2d.egg-info/requires.txt
+sashanje_diffusion2d.egg-info/top_level.txt

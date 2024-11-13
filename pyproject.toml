@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name = "sashanje_diffusion2d"
+authors = [
+    {name = "Sashan Samarajeewa"},
+]
+version = "0.0.3"
+description = "Solves the diffusion equation in 2D over a square domain"
+readme = "README.md"
+keywords = ["diffusion", "simulation"]
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+    "numpy",
+    "matplotlib"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Simulation-Software-Engineering/diffusion2D"
