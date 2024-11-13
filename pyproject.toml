@@ -23,8 +23,11 @@ classifiers = [
 Homepage = "https://github.com/ombahiwal/diffusion2d-fork"
 
 [project.dependencies]
-numpy = "*"
-matplotlib = "*"
+dependencies = [
+    "numpy",
+    "matplotlib"
+]
+
 
 [project.scripts]
 solve = "bahiwaor_diffusion2d.diffusion2d:main" 
