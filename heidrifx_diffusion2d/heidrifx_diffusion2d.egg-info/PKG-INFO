@@ -1,3 +1,17 @@
+Metadata-Version: 2.1
+Name: heidrifx_diffusion2d
+Version: 0.0.1
+Summary: A student project from the course 'Simulation Software Engineering'
+Keywords: SSE,student project
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
 # diffusion2D
 
 ## Instructions for students
@@ -12,16 +26,8 @@ This code solves the diffusion equation in 2D over a square domain which is at a
 ## Installing the package
 
 ### Using pip3 to install from PyPI
-For the default release use:
-
 ```bash
 pip install --user --index-url https://test.pypi.org/simple/ heidrifx_diffusion2d
-```
-
-For a pre-release version, i.e. a packed versioned by `versioneer` use for example:
-
-```bash
-pip install --user --index-url https://test.pypi.org/simple/ heidrifx-diffusion2d==0.post0.dev4
 ```
 
 ### Required dependencies

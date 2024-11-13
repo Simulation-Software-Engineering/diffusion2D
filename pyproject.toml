@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools", "wheel", "versioneer[toml]==0.29"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["heidrifx_diffusion2d"]
+
+#[tool.setuptools.package-dir]
+#"" = "heidrifx_diffusion2d"
+
+[tool.versioneer]
+VCS = "git"
+style = "pep440-pre"
+versionfile_source = "heidrifx_diffusion2d/_version.py"
+versionfile_build = "_version.py"
+tag_prefix = ""
+parentdir_prefix = "myproject-"
+
+[project]
+name = "heidrifx_diffusion2d"
+#version = "0.0.1"
+dynamic = ["version"]
+description = "A student project from the course 'Simulation Software Engineering'"
+readme = "README.md"
+requires-python = ">=3.6"
+#license = { file = "LICENSE" }
+keywords = ["SSE", "student project"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+]
