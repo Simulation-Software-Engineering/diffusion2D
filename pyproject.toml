@@ -9,9 +9,9 @@ name = "bahiwaor_diffusion2d"
 version = "0.0.1"
 description = "A package for solving the 2D diffusion equation"
 readme = "README.md"
-requires-python = ">=3.13.0"
+requires-python = ">=3.6"  # Adjusted to a compatible Python version
 license = { text = "CC BY 4.0" }
-authors = [{ name = "Omkar Bahiwal ", email = "test@test.com" }]
+authors = [{ name = "Omkar Bahiwal", email = "test@test.com" }]
 keywords = ["diffusion", "2D", "simulation", "science"]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -26,5 +26,6 @@ Homepage = "https://github.com/ombahiwal/diffusion2d-fork"
 numpy = "*"
 matplotlib = "*"
 
-[project:scripts]
-solve = "bahiwaor_diffusion2d.diffusion2d:solve"
+[project.scripts]
+solve = "bahiwaor_diffusion2d.diffusion2d:main" 
+

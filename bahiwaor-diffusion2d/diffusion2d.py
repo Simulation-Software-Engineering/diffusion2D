@@ -1,3 +1,5 @@
+#bahiwaor_diffusion2d/diffusion2d
+
 import numpy as np
 import matplotlib.pyplot as plt
 from output import create_plot, output_plots
@@ -68,3 +70,8 @@ def solve(dx=0.1, dy=0.1, D=4.0):
 
     # Plot output figures
     output_plots(fig, im)
+
+# wrapper for entry point
+def main():
+    solve()
+
