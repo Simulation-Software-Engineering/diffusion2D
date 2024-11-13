@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name = "krampfkn_diffusion2d"
+version = "0.0.4"
+description = "Example implementation for solving diffusion equations"
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["simulation", "diffusion"]
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+    "matplotlib>=3.9",
+    "numpy>=2.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/Simulation-Software-Engineering/diffusion2D"
+Repository = "https://github.com/Simulation-Software-Engineering/diffusion2D"
+
+[project.entry-points."simulation"]
+solve = "krampfkn_diffusion2d:solve"
