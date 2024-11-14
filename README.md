@@ -31,20 +31,14 @@ The following dependencies will be automatically installed:
 
 The equation solver is implemented in the `solve` function of the package. To make the code run:
 
-Either simply open a python shell and run the following commands:
+Simply open a python shell and run the following commands:
 
 ```python
 from puranivt_diffusion2d.diffusion2d import solve
 
 solve(dx = 0.1, dy = 0.1, D = 4)
 ```
-**OR**
-
-As the starting point of the package is defined as the `solve` function itself, only calling the solve function with the optional parameters would suffice.
-
-```python
-solve(dx = 0.1, dy = 0.1, D = 4)
-```
+Play around with the values of these parameters to observe changes in the output.
 
 ## Citing
 
