@@ -38,6 +38,7 @@ from puranivt_diffusion2d.diffusion2d import solve
 
 solve(dx = 0.1, dy = 0.1, D = 4)
 ```
+
 Play around with the values of these parameters to observe changes in the output.
 
 ## Citing
