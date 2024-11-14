@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "puranivt_diffusion2d"
+authors = [
+    {name = "Vedant Puranik", email = "vedant.puranik@gmail.com"},
+]
+description = "A project that implementes the diffusion equation solver over a series of timesteps based on configurable parameters: (dx, dy, D)"
+readme = "README.md"
+keywords = ["diffusion_equation", "diffusion2d", "puranivt", "SSE"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+]
+version = "0.0.1"
+requires-python = ">=3.6"
+
+[project.entry-points.console_scripts]
+solve = "puranivt_diffusion2d.diffusion2d:solve" 
+
+[project.urls]
+Homepage = "https://github.com/VedantKP/diffusion2D"

@@ -1,0 +1,2 @@
+[console_scripts]
+solve = puranivt_diffusion2d.diffusion2d:solve
