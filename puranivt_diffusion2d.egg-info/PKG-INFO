@@ -1,3 +1,19 @@
+Metadata-Version: 2.1
+Name: puranivt_diffusion2d
+Version: 0.0.1
+Summary: A project that implementes the diffusion equation solver over a series of timesteps based on configurable parameters: (dx, dy, D)
+Author-email: Vedant Puranik <vedant.puranik@gmail.com>
+Project-URL: Homepage, https://github.com/VedantKP/diffusion2D
+Keywords: diffusion_equation,diffusion2d,puranivt,SSE
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
 # diffusion2D
 
 ## Instructions for students
@@ -17,7 +33,7 @@ This code solves the diffusion equation in 2D over a square domain which is at a
 Direct installation is possible from PyPI by using the following command:
 
 ```sh
-pip install -i https://test.pypi.org/simple/ puranivt-diffusion2d==0.0.1
+pip3 install puranivt-diffusion2d
 ```
 
 ### Required dependencies

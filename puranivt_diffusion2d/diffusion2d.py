@@ -6,7 +6,7 @@ Example acquired from https://scipython.com/book/chapter-7-matplotlib/examples/t
 
 import numpy as np
 import matplotlib.pyplot as plt
-from output import create_plot, output_plots
+from puranivt_diffusion2d.output import create_plot, output_plots
 
 def solve(dx: float = 0.1, dy: float = 0.1, D: int = 4):
     """Wrapper for the diffusion equation solver and image rendering functionality
