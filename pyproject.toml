@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools", "wheel", "versioneer[toml]"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kieslijn_diffusion2d"
+authors = [
+    {name = "Julian Kieslinger", email = "st170001@stud.uni-stuttgart.de"},
+]
+description = "Solves the diffusion equation in 2D over a square domain which is at a certain temperature and a circular disc at the center which is at a higher temperature."
+readme = "README.md"
+keywords = ["simulation", "diffusion", "2d", "thermodynamics"]
+license = {text = "Attribution 4.0 International"}
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+    "matplotlib",
+    "numpy",
+    'importlib-metadata; python_version<"3.8"',
+    'tomli; python_version < "3.11"'
+]
+dynamic = ["version"]
+
+[project.urls]
+Repository = "https://github.com/legendofa/diffusion2D"
+
+[tool.versioneer]
+VCS = "git"
+style = "pep440"
+versionfile_source = "kieslijn_diffusion2d/_version.py"
+versionfile_build = "kieslijn_diffusion2d/_version.py"
+tag_prefix = "v"
+parentdir_prefix = "kieslijn_diffusion2d-"
