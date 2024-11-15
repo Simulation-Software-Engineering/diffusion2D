@@ -9,7 +9,7 @@ You can use pip to directly install the package or build it from source using pi
 ### Using pip3 to install from PyPI
 To install the package, simply run:
 ```console
-pip install -i https://test.pypi.org/simple/ ahmedsa-diffusion2d==0.0.1
+pip install -i https://test.pypi.org/simple/ ahmedsa-diffusion2d
 ```
 
 ### Required dependencies
