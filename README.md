@@ -11,20 +11,23 @@ Diffusion2D solves the diffusion equation in 2D over a square domain which is at
 If you are interested in the theoretical background of the code, please have a look in [Chapter 7 of the book "Learning Scientific Programming with Python"](https://scipython.com/book/chapter-7-matplotlib/examples/the-two-dimensional-diffusion-equation/).
 
 ## Installing the package
+
+
+### Using pip3 to install from PyPI
+```
+pip install -i https://test.pypi.org/simple/ zipfeljs-diffusion2d==0.0.1
+```
+### Required dependencies
 Check if your system has Python version >= 3.6 and update it if it is older than 3.6.
 
 ```
 python --version
 ```
-also install pip, matplotlib and numpy
-
-### Using pip3 to install from PyPI
-
-### Required dependencies
+install pip, matplotlib and numpy
 
 ## Running this package
 Run the code using python and running the solve function in diffusion2d.py
-it has three parameters with there standard values:
+it has three parameters with these standard values:
 ```
 dx = dy = 0.1
 D = 4.
