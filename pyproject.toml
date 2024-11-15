@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+version = "0.0.2"
+name = "zipfeljs_diffusion2d"
+description = "Diffusion2D solves the diffusion equation in 2D over a square domain which is at a certain temperature and a circular disc at the center which is at a higher temperature"
+readme = "README.md"
+keywords = ["SimulationSoftwareEngenieering", "UniStuttgart","MasterStudent"]
+classifiers=[
+        "Programming Language :: Python :: 3"
+    ]
+dependencies = [
+    "requests",
+    'importlib-metadata; python_version<"3.8"',
+]
