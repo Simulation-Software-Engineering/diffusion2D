@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel", "build"]
+
+[project]
+name = "ahmedsa_diffusion2d"
+description = "A 2D diffusion equation solver with visualization output"
+authors = [
+    { name="Syed Mustafa Ahmed", email="syedmustafaahmad@gmail.com" }
+]
+readme = "README.md"
+keywords = ["diffusion2D", "solver"]
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+    "matplotlib",
+    "numpy"
+]
+requires-python = ">=3.0"
+version = "0.0.2"
